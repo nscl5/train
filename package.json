@@ -21,8 +21,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7",
-    "tw-animate-css": "latest"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^22",
@@ -30,6 +29,7 @@
     "@types/react-dom": "19.2.2",
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
+    "tw-animate-css": "latest",
     "typescript": "^5"
   }
 }
