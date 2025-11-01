@@ -1,7 +1,13 @@
-"use client"
+'use client';
+import { useEffect, useState } from 'react';
 
-import App from "../App"
+export function MyComponent() {
+  const [data, setData] = useState(null);
 
-export default function Page() {
-  return <App />
+  useEffect(() => {
+    const stored = localStorage.getItem('key');
+    setData(stored);
+  }, []);
+
+  return <div>{data}</div>;
 }
