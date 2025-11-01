@@ -29,7 +29,6 @@
     "@types/react-dom": "19.2.2",
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
-    "tw-animate-css": "latest",
     "typescript": "^5"
   }
 }
